@@ -13,6 +13,7 @@
 		A365151C2386A611005F177C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A365151A2386A611005F177C /* Main.storyboard */; };
 		A365151E2386A612005F177C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A365151D2386A612005F177C /* Assets.xcassets */; };
 		A36515212386A612005F177C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A365151F2386A612005F177C /* LaunchScreen.storyboard */; };
+		A365152A2386AAAE005F177C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36515292386AAAE005F177C /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A365151D2386A612005F177C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A36515202386A612005F177C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A36515222386A612005F177C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A36515292386AAAE005F177C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		A36515132386A611005F177C /* GitFirstTest */ = {
 			isa = PBXGroup;
 			children = (
+				A36515282386AAA0005F177C /* FirstViewController */,
 				A36515142386A611005F177C /* AppDelegate.swift */,
 				A36515162386A611005F177C /* SceneDelegate.swift */,
 				A36515182386A611005F177C /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				A36515222386A612005F177C /* Info.plist */,
 			);
 			path = GitFirstTest;
+			sourceTree = "<group>";
+		};
+		A36515282386AAA0005F177C /* FirstViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A36515292386AAAE005F177C /* FirstViewController.swift */,
+			);
+			path = FirstViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +152,7 @@
 				A36515192386A611005F177C /* ViewController.swift in Sources */,
 				A36515152386A611005F177C /* AppDelegate.swift in Sources */,
 				A36515172386A611005F177C /* SceneDelegate.swift in Sources */,
+				A365152A2386AAAE005F177C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
