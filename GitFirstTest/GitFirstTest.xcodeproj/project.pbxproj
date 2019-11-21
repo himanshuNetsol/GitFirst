@@ -105,6 +105,8 @@
 				A365153C2386CDE2005F177C /* ThirdViewController.swift */,
 			);
 			path = ThirdViewController;
+            sourceTree = "<group>";
+        };
 		A365153E2386CF8C005F177C /* FifthViewController */ = {
 			isa = PBXGroup;
 			children = (
