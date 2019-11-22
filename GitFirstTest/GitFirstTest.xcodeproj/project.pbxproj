@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A337286B2387A6FC00F8CC52 /* NewDevelopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A337286A2387A6FC00F8CC52 /* NewDevelopViewController.swift */; };
 		A36515152386A611005F177C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36515142386A611005F177C /* AppDelegate.swift */; };
 		A36515172386A611005F177C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36515162386A611005F177C /* SceneDelegate.swift */; };
 		A36515192386A611005F177C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36515182386A611005F177C /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A337286A2387A6FC00F8CC52 /* NewDevelopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDevelopViewController.swift; sourceTree = "<group>"; };
 		A36515112386A611005F177C /* GitFirstTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFirstTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36515142386A611005F177C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A36515162386A611005F177C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A33728692387A6E500F8CC52 /* NewDevelopViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A337286A2387A6FC00F8CC52 /* NewDevelopViewController.swift */,
+			);
+			path = NewDevelopViewController;
+			sourceTree = "<group>";
+		};
 		A36515082386A611005F177C = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +72,7 @@
 		A36515132386A611005F177C /* GitFirstTest */ = {
 			isa = PBXGroup;
 			children = (
+				A33728692387A6E500F8CC52 /* NewDevelopViewController */,
 				A36515402386CFC1005F177C /* FourthViewController */,
 				A365153E2386CF8C005F177C /* FifthViewController */,
 				A36515282386AAA0005F177C /* FirstViewController */,
@@ -174,6 +185,7 @@
 				A36515442386CFF7005F177C /* FourthViewController.swift in Sources */,
 				A36515422386CFCE005F177C /* FifthViewController.swift in Sources */,
 				A36515192386A611005F177C /* ViewController.swift in Sources */,
+				A337286B2387A6FC00F8CC52 /* NewDevelopViewController.swift in Sources */,
 				A36515152386A611005F177C /* AppDelegate.swift in Sources */,
 				A36515172386A611005F177C /* SceneDelegate.swift in Sources */,
 				A365152A2386AAAE005F177C /* FirstViewController.swift in Sources */,
