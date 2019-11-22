@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A33728672387A69600F8CC52 /* NewQCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33728662387A69600F8CC52 /* NewQCViewController.swift */; };
 		A36515152386A611005F177C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36515142386A611005F177C /* AppDelegate.swift */; };
 		A36515172386A611005F177C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36515162386A611005F177C /* SceneDelegate.swift */; };
 		A36515192386A611005F177C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36515182386A611005F177C /* ViewController.swift */; };
@@ -14,7 +15,6 @@
 		A365151E2386A612005F177C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A365151D2386A612005F177C /* Assets.xcassets */; };
 		A36515212386A612005F177C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A365151F2386A612005F177C /* LaunchScreen.storyboard */; };
 		A365152A2386AAAE005F177C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36515292386AAAE005F177C /* FirstViewController.swift */; };
-
 		A365153B2386CDD5005F177C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365153A2386CDD5005F177C /* SecondViewController.swift */; };
 		A365153D2386CDE2005F177C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A365153C2386CDE2005F177C /* ThirdViewController.swift */; };
 		A36515422386CFCE005F177C /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36515412386CFCE005F177C /* FifthViewController.swift */; };
@@ -22,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A33728662387A69600F8CC52 /* NewQCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQCViewController.swift; sourceTree = "<group>"; };
 		A36515112386A611005F177C /* GitFirstTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFirstTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36515142386A611005F177C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A36515162386A611005F177C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A33728652387A67F00F8CC52 /* NewQCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A33728662387A69600F8CC52 /* NewQCViewController.swift */,
+			);
+			path = NewQCViewController;
+			sourceTree = "<group>";
+		};
 		A36515082386A611005F177C = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +76,7 @@
 		A36515132386A611005F177C /* GitFirstTest */ = {
 			isa = PBXGroup;
 			children = (
+				A33728652387A67F00F8CC52 /* NewQCViewController */,
 				A36515392386CDC4005F177C /* ThirdViewController */,
 				A36515382386CDB9005F177C /* SecondViewController */,
 				A36515402386CFC1005F177C /* FourthViewController */,
@@ -105,8 +115,8 @@
 				A365153C2386CDE2005F177C /* ThirdViewController.swift */,
 			);
 			path = ThirdViewController;
-            sourceTree = "<group>";
-        };
+			sourceTree = "<group>";
+		};
 		A365153E2386CF8C005F177C /* FifthViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +210,7 @@
 				A36515152386A611005F177C /* AppDelegate.swift in Sources */,
 				A36515172386A611005F177C /* SceneDelegate.swift in Sources */,
 				A365153B2386CDD5005F177C /* SecondViewController.swift in Sources */,
+				A33728672387A69600F8CC52 /* NewQCViewController.swift in Sources */,
 				A365153D2386CDE2005F177C /* ThirdViewController.swift in Sources */,
 				A365152A2386AAAE005F177C /* FirstViewController.swift in Sources */,
 			);
